@@ -21,11 +21,14 @@ where `YOURUSER` and `YOURPASSWORD` are to be replaced by your own MySQL usernam
 `CON_STRING` assumes a locally hosted MySQL server; networked servers can be reached by providing the appropriate IP address in place of `127.0.0.1`. If a different name is chosen for the schema, this must be updated both in `.env` (replace `gans`, line 1) and in `sql_files/gans_schema.sql`, lines 1-4.
 
 ## Structure
+```
 data_acquisition_with_Gans/
-|--- notebooks/ # used to develop project methodologies
+|--- notebooks/ 
 |    |--- 1_webScraping.ipynb
 |    |--- 2_writeSQL.ipynb
-|--- sql_files/ # definition files for the database
+|--- sql_files/ 
 |    |--- gans_schema.sql
 |--- README.md
-
+```
+Files in `notebooks/` are used to develop and test project methodologies, and are meant to be followed in numbered order. 
+`sql_files/` contains definition files for the database.
