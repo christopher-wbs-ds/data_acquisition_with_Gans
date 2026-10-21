@@ -28,7 +28,19 @@ data_acquisition_with_Gans/
 |    |--- 2_writeSQL.ipynb
 |--- sql_files/ 
 |    |--- gans_schema.sql
+|--- .gitignore
+|--- .env              (create your own, not on GitHub)
 |--- README.md
 ```
 Files in `notebooks/` are used to develop and test project methodologies, and are meant to be followed in numbered order. 
 `sql_files/` contains definition files for the database.
+
+## .gitignore
+
+What .gitignore does: `.gitignore` lists files that git should never upload. Ours contains:
+
+```
+.env
+```
+
+- **`.env`** holds your personal passwords, so it must stay private.
