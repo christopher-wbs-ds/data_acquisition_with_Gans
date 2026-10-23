@@ -26,6 +26,8 @@ data_acquisition_with_Gans/
 |--- notebooks/ 
 |    |--- 1_webScraping.ipynb
 |    |--- 2_writeSQL.ipynb
+|    |--- 3_weather.ipynb
+|    |--- 4_aeroDataBox.ipynb
 |--- sql_files/ 
 |    |--- gans_schema.sql
 |--- .gitignore
